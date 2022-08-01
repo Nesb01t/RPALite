@@ -1,3 +1,5 @@
+import time
+
 import win32api
 import win32gui
 
@@ -8,7 +10,7 @@ handle = wc.getHandle("《风暴英雄》")
 time_las = 0
 
 
-def onClose():
+def on_close():
     wc.showWindow(handle)
 
 
@@ -37,11 +39,9 @@ def antiAfk():
 
 def main():
     afk_timer = wc.sec_timer(20, antiAfk)
-    win32api.SetConsoleCtrlHandler(onClose(), True)
+    win32api.SetConsoleCtrlHandler(on_close(), True)
     while True:
         afk_timer.run()
-
-
-main()
+        time.sleep(0.1)
 
 # pyinstaller.exe -F E:\PyAutoPlayer\apps\hosleveling.py
