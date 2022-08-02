@@ -23,4 +23,4 @@ def fake_active(hwnd, hide):
     win32gui.SetForegroundWindow(hwnd)
     if hide:
         hideWindow(hwnd)
-    time.sleep(0.1)
+    time.sleep(0.07)

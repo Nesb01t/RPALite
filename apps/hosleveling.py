@@ -10,10 +10,6 @@ handle = wc.getHandle("《风暴英雄》")
 time_las = 0
 
 
-def on_close():
-    wc.showWindow(handle)
-
-
 def getActualPos(x, y):
     width, height = wc.getWindowSize(handle)
     x = x * (width / 2560)
@@ -22,6 +18,7 @@ def getActualPos(x, y):
 
 
 def antiAfk():
+    # 获取当前窗口, 以便恢复状态
     retail = win32gui.GetForegroundWindow()
 
     # 确定点击窗口位置
@@ -34,12 +31,12 @@ def antiAfk():
     wu.click(handle, x1, y1)  # 游戏中途防掉线
     wu.click(handle, x2, y2)  # 游戏结束后进行排队
     wu.click(handle, x3, y3)  # 游戏结算返回主界面
-    wu.fake_active(retail, False)
+    if retail:
+        wu.fake_active(retail, False)
 
 
 def main():
     afk_timer = wc.sec_timer(20, antiAfk)
-    win32api.SetConsoleCtrlHandler(on_close(), True)
     while True:
         afk_timer.run()
         time.sleep(0.1)
