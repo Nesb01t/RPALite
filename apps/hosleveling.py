@@ -1,3 +1,4 @@
+import os
 import time
 
 import win32api
@@ -10,14 +11,14 @@ handle = wc.getHandle("《风暴英雄》")
 time_las = 0
 
 
-def getActualPos(x, y):
+def getActualPos(x, y):  # 获取相对坐标
     width, height = wc.getWindowSize(handle)
     x = x * (width / 2560)
     y = y * (height / 1440)
     return int(x), int(y)
 
 
-def antiAfk():
+def antiAfk():  # 伪线程执行主程序
     # 获取当前窗口, 以便恢复状态
     retail = win32gui.GetForegroundWindow()
 
@@ -26,6 +27,7 @@ def antiAfk():
     x1, y1 = getActualPos(1050, 835)
     x2, y2 = getActualPos(1090, 1330)
     x3, y3 = getActualPos(70, 1380)
+
     # 点击窗口
     wu.fake_active(handle, True)
     wu.click(handle, x1, y1)  # 游戏中途防掉线
@@ -35,10 +37,18 @@ def antiAfk():
         wu.fake_active(retail, False)
 
 
+def showCmd():
+    i = os.system("cls")  # 清屏
+    os.system("mode con lines=3 cols=30")
+    print(""
+          "正在执行..."
+          "")
+
+
 def main():
-    afk_timer = wc.sec_timer(20, antiAfk)
+    afk_timer = wc.sec_timer(20, antiAfk)  # 每20秒运行一次
     while True:
-        afk_timer.run()
+        flag = afk_timer.run()  # 标志是否运行了
         time.sleep(0.1)
 
 # pyinstaller.exe -F E:\PyAutoPlayer\apps\hosleveling.py
