@@ -45,3 +45,5 @@ class sec_timer:
         if time.time() - self._time_las > self.interval:
             self._time_las = time.time()
             self.runfunc()
+            return True
+        return False
