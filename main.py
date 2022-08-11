@@ -8,3 +8,6 @@ if __name__ == '__main__':
 
 # 隐藏窗口台
 # pyinstaller.exe -F -w E:\PyAutoPlayer\main.py
+
+# 添加图标
+# pyinstaller.exe -F -w -i E:\PyAutoPlayer\apps\res\icon.ico E:\PyAutoPlayer\main.py

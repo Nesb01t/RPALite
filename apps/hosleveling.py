@@ -52,6 +52,7 @@ def antiAfk():  # 伪线程执行主程序
                 wu.fake_active(retail, False)
         time.sleep(0.05)
 
+
 def showCmd():  # 控制cmd界面
     i = os.system("cls")  # 清屏
     os.system("mode con lines=3 cols=30")
@@ -64,6 +65,7 @@ def showWindo():
     window = tk.Tk()
     window.title('hosleveling')
     window.geometry('240x100')
+    window.iconphoto(False, tk.PhotoImage(file='E:/PyAutoPlayer/apps/res/icon.png'))
 
     buttonText = tk.StringVar()
     buttonText.set('隐藏窗口')
