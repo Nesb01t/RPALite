@@ -3,8 +3,8 @@ import time
 import win32api
 from win32con import WM_ACTIVATE, WA_CLICKACTIVE
 
-import apps.library.wincom as wc
-import apps.library.winunder as wu
+import apps.lib.wincom as wc
+import apps.lib.winunder as wu
 from apps.hosleveling import getActualPos
 
 handle = wc.getHandle("《风暴英雄》")

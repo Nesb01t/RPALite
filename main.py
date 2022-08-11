@@ -3,4 +3,8 @@ from apps.hosleveling import main
 if __name__ == '__main__':
     main()
 
+# 默认编译方法
 # pyinstaller.exe -F E:\PyAutoPlayer\main.py
+
+# 隐藏窗口台
+# pyinstaller.exe -F -w E:\PyAutoPlayer\main.py
