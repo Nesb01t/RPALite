@@ -1,5 +1,5 @@
-from apps.hosleveling import main
-
+# from apps.hosleveling import main  # 自动风暴英雄挂箱
+from apps.pymyclass import main
 if __name__ == '__main__':
     main()
 
