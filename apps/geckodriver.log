@@ -1,0 +1,313 @@
+1662373809772	geckodriver	INFO	Listening on 127.0.0.1:64853
+1662373812813	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64854" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileTvNwyC"
+1662373813062	Marionette	INFO	Marionette enabled
+1662373813067	Marionette	INFO	Listening on port 64866
+WebDriver BiDi listening on ws://localhost:64854
+Read port: 64866
+1662373813251	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileTvNwyC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64854/devtools/browser/dfcddfd6-08a7-4443-82ec-8359d8e83d77
+1662373815177	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1662373815430	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1662373815591	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1662373815728	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1662373815875	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1662373907817	Marionette	INFO	Stopped listening on port 64866
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1662373947417	geckodriver	INFO	Listening on 127.0.0.1:57459
+1662373950453	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57460" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile4k5Vyz"
+1662373950678	Marionette	INFO	Marionette enabled
+1662373950682	Marionette	INFO	Listening on port 57472
+Read port: 57472
+WebDriver BiDi listening on ws://localhost:57460
+1662373950771	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile4k5Vyz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57460/devtools/browser/08dce634-ee59-43fd-b667-361303895edf
+1662373952430	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1662373952716	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1662373952852	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1662373953008	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1662373953164	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1662373979011	geckodriver	INFO	Listening on 127.0.0.1:57553
+1662373982051	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57554" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileWTgpD1"
+1662373982270	Marionette	INFO	Marionette enabled
+1662373982274	Marionette	INFO	Listening on port 57573
+WebDriver BiDi listening on ws://localhost:57554
+Read port: 57573
+1662373982543	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileWTgpD1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57554/devtools/browser/876943d4-eb28-4c58-81ed-e5879ed4a05e
+1662373984106	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1662373984403	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1662373984548	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1662373984678	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1662373984816	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1662374044213	Marionette	INFO	Stopped listening on port 57573
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1662374046149	geckodriver	INFO	Listening on 127.0.0.1:54210
+1662374049182	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54211" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileDSgBoD"
+1662374049409	Marionette	INFO	Marionette enabled
+1662374049413	Marionette	INFO	Listening on port 54224
+WebDriver BiDi listening on ws://localhost:54211
+Read port: 54224
+1662374049673	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileDSgBoD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54211/devtools/browser/6bb0908d-0147-47d5-9afb-edf7d478a43f
+1662374055071	Marionette	INFO	Stopped listening on port 54224
+1662374137188	geckodriver	INFO	Listening on 127.0.0.1:54573
+1662374140231	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54574" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilefBWHSB"
+1662374140448	Marionette	INFO	Marionette enabled
+1662374140452	Marionette	INFO	Listening on port 54585
+WebDriver BiDi listening on ws://localhost:54574
+Read port: 54585
+1662374140719	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilefBWHSB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54574/devtools/browser/98e909c3-aad5-49d7-ae9d-4ccc49865c26
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://newjwxt.zust.edu.cn."
+1662374147840	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://authserver.zust.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://authserver.zust.edu.cn."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1662374806011	Marionette	INFO	Stopped listening on port 54585
+e-debugging-port" "60052" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilecDtXR3"
+1662374801741	Marionette	INFO	Marionette enabled
+1662374801744	Marionette	INFO	Listening on port 60063
+WebDriver BiDi listening on ws://localhost:60052
+Read port: 60063
+1662374802011	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilecDtXR3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60052/devtools/browser/504a42a3-9990-49f0-a5d2-016d2f147f97
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://newjwxt.zust.edu.cn."
+1662374808762	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://authserver.zust.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://authserver.zust.edu.cn."
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:void(0)'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 699"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:699:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:543:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2150:35
+addAllSources@resource://devtools/server/actors/thread.js:1482:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:288:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:528:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:437:21
+Line: 699, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 699: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:void(0)'
+SourceActor threw an exception: Error: Failed to fetch https://newjwxt.zust.edu.cn/jwglxt/xsxk/zzxkyzb_cxZzxkYzbIndex.html?gnmkdm=N253512&layout=default&su=1210204126. Code 2152924148.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:583:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 583, column: 16
+console.error: (new Error("Failed to fetch https://newjwxt.zust.edu.cn/jwglxt/xsxk/zzxkyzb_cxZzxkYzbIndex.html?gnmkdm=N253512&layout=default&su=1210204126. Code 2152924148.", "resource://devtools/shared/DevToolsUtils.js", 583))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 583: Error: Failed to fetch https://newjwxt.zust.edu.cn/jwglxt/xsxk/zzxkyzb_cxZzxkYzbIndex.html?gnmkdm=N253512&layout=default&su=1210204126. Code 2152924148.
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/query-stripping)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:977:13
+
+1662375280771	geckodriver	INFO	Listening on 127.0.0.1:49224
+1662375283813	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49225" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile8qXQzQ"
+1662375284025	Marionette	INFO	Marionette enabled
+1662375284028	Marionette	INFO	Listening on port 49236
+Read port: 49236
+WebDriver BiDi listening on ws://localhost:49225
+1662375284115	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile8qXQzQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49225/devtools/browser/b7278769-746f-421d-981c-8179bee332c1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://newjwxt.zust.edu.cn."
+1662375290160	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://authserver.zust.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://authserver.zust.edu.cn."
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:void(0)'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 699"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:699:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:543:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2150:35
+addAllSources@resource://devtools/server/actors/thread.js:1482:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:288:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:528:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:437:21
+Line: 699, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 699: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:void(0)'
+SourceActor threw an exception: Error: Failed to fetch https://newjwxt.zust.edu.cn/jwglxt/xsxk/zzxkyzb_cxZzxkYzbIndex.html?gnmkdm=N253512&layout=default&su=1210204126. Code 2152924148.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:583:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 583, column: 16
+console.error: (new Error("Failed to fetch https://newjwxt.zust.edu.cn/jwglxt/xsxk/zzxkyzb_cxZzxkYzbIndex.html?gnmkdm=N253512&layout=default&su=1210204126. Code 2152924148.", "resource://devtools/shared/DevToolsUtils.js", 583))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 583: Error: Failed to fetch https://newjwxt.zust.edu.cn/jwglxt/xsxk/zzxkyzb_cxZzxkYzbIndex.html?gnmkdm=N253512&layout=default&su=1210204126. Code 2152924148.
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2320))
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1662376041833	geckodriver	INFO	Listening on 127.0.0.1:49995
+1662376044868	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49996" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile3YgbBg"
+1662376045083	Marionette	INFO	Marionette enabled
+1662376045087	Marionette	INFO	Listening on port 50009
+WebDriver BiDi listening on ws://localhost:49996
+Read port: 50009
+1662376045346	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile3YgbBg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49996/devtools/browser/56243775-21fd-42a1-88a9-44ab5cfb0416
+1662376124435	Marionette	INFO	Stopped listening on port 50001662376125330	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50237" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile1MlLL5"
+1662376125542	Marionette	INFO	Marionette enabled
+1662376125545	Marionette	INFO	Listening on port 50254
+Read port: 50254
+WebDriver BiDi listening on ws://localhost:50237
+1662376125634	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile1MlLL5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50237/devtools/browser/150c335e-ac8f-45d8-bb1a-be5bf2b07561
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://newjwxt.zust.edu.cn."
+1662376209033	Marionette	INFO	Stopped listening on port 50254
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1662376232397	geckodriver	INFO	Listening on 127.0.0.1:50750
+1662376235448	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50751" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofiletL7BWC"
+1662376235666	Marionette	INFO	Marionette enabled
+1662376235669	Marionette	INFO	Listening on port 50763
+WebDriver BiDi listening on ws://localhost:50751
+Read port: 50763
+1662376235932	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofiletL7BWC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50751/devtools/browser/ce3e5e17-444d-4dae-a2fe-637e89697574
+1662376255450	Marionette	INFO	Stopped listening on port 50763
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1662376302873	geckodriver	INFO	Listening on 127.0.0.1:50971
+1662376305907	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50972" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilerwQk8a"
+1662376306117	Marionette	INFO	Marionette enabled
+1662376306120	Marionette	INFO	Listening on port 50983
+Read port: 50983
+WebDriver BiDi listening on ws://localhost:50972
+1662376306209	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilerwQk8a\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50972/devtools/browser/87a89e97-2fda-48fd-9a74-1f37eeee3ffd
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://newjwxt.zust.edu.cn."
+1662376311179	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://authserver.zust.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://authserver.zust.edu.cn."
+1662376326787	geckodriver	INFO	Listening on 127.0.0.1:51105
+1662376329814	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51106" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile7CkewR"
+1662376330037	Marionette	INFO	Marionette enabled
+1662376330041	Marionette	INFO	Listening on port 51117
+WebDriver BiDi listening on ws://localhost:51106
+Read port: 51117
+1662376330304	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile7CkewR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51106/devtools/browser/a6890d8b-207d-440d-87a6-1059c4436c74
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://newjwxt.zust.edu.cn."
+1662376335261	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://authserver.zust.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://authserver.zust.edu.cn."
+1662376391890	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662376472000	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662376528588	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662376609018	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662376655543	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662376669622	geckodriver	INFO	Listening on 127.0.0.1:52146
+1662376672645	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52147" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile9Cfwpk"
+1662376672862	Marionette	INFO	Marionette enabled
+1662376672866	Marionette	INFO	Listening on port 52161
+WebDriver BiDi listening on ws://localhost:52147
+Read port: 52161
+1662376673135	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile9Cfwpk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52147/devtools/browser/fbec1f41-f525-45ec-8b5b-6f8f826c6b92
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://newjwxt.zust.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://newjwxt.zust.edu.cn."
+1662376682525	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://authserver.zust.edu.cn."
+1662376740856	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662376766495	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662376784453	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662376845902	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662376898978	geckodriver	INFO	Listening on 127.0.0.1:52768
+1662376902011	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52769" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileC2kvQH"
+1662376902223	Marionette	INFO	Marionette enabled
+1662376902226	Marionette	INFO	Listening on port 52780
+Read port: 52780
+WebDriver BiDi listening on ws://localhost:52769
+1662376902320	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileC2kvQH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52769/devtools/browser/b729cb06-0c89-4837-8c3f-542b15d4393a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://newjwxt.zust.edu.cn."
+1662376972591	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://authserver.zust.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://authserver.zust.edu.cn."
+1662377054980	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
