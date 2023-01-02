@@ -4,26 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24221799-5430-46e9-9b18-741cce930e09" name="变更" comment="Update 图片采集x3">
-      <change afterPath="$PROJECT_DIR$/clientend/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clientend/timeutils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clientend/winauto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clientend/winmain.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-collect/imagehitbox/click/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-collect/imagehitbox/click/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflow/apex-rpafarm-graph.py" afterDir="false" />
+    <list default="true" id="24221799-5430-46e9-9b18-741cce930e09" name="变更" comment="Feat 解耦图形版apex rpafarm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-collect/assets/image-parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-collect/image-parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-collect/assets/开始界面-匹配中.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-collect/assets/开始界面-就绪.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-collect/assets/游戏中-死亡.png" beforeDir="false" afterPath="$PROJECT_DIR$/data-collect/imagehitbox/press/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-collect/assets/游戏中-确认退出.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-collect/assets/游戏中-选择1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-collect/assets/游戏中-选择2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-collect/assets/窗口化和分辨率.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-collect/assets/结算画面-继续.png" beforeDir="false" afterPath="$PROJECT_DIR$/data-collect/imagehitbox/click/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/apex-rpafarm-graph/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/apex-rpafarm-graph/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/apex-rpafarm-graph/apex-rpafarm-graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/apex-rpafarm-graph/apex-rpafarm-graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-collect/image-parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-collect/imagehitbox/click/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-collect/imagehitbox/click/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-collect/imagehitbox/click/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-collect/imagehitbox/press/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflow/apex-rpafarm-graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/workflow/apex-rpafarm-graph.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +141,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data-collect" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data-collect/assets" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -167,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="image-parser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="imageparser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="RPALite" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -175,12 +163,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data-collect/assets" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data-collect" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\RPALite\data-collect\image-parser.py" />
+      <option name="SCRIPT_NAME" value="E:\RPALite\data-collect\imageparser.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,10 +202,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.apex-rpafarm-graph (1)" />
+        <item itemvalue="Python.imageparser" />
         <item itemvalue="Python.winauto" />
         <item itemvalue="Python.apex-rpafarm-graph" />
         <item itemvalue="Python.apex-rpa-leveling (1)" />
-        <item itemvalue="Python.image-parser" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +219,8 @@
       <updated>1672581086525</updated>
       <workItem from="1672581087492" duration="496000" />
       <workItem from="1672590752492" duration="6027000" />
-      <workItem from="1672622962947" duration="500000" />
+      <workItem from="1672622962947" duration="1135000" />
+      <workItem from="1672624122475" duration="164000" />
     </task>
     <task id="LOCAL-00001" summary="Update 文件夹管理">
       <created>1672581560655</created>
@@ -261,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672593641314</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Feat 解耦图形版apex rpafarm">
+      <created>1672623529011</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672623529011</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,12 +280,13 @@
     <MESSAGE value="Update 图片采集x1" />
     <MESSAGE value="Update 图片采集x2" />
     <MESSAGE value="Update 图片采集x3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 图片采集x3" />
+    <MESSAGE value="Feat 解耦图形版apex rpafarm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat 解耦图形版apex rpafarm" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/RPALite$winauto.coverage" NAME="winauto 覆盖结果" MODIFIED="1672622866100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/client-end" />
-    <SUITE FILE_PATH="coverage/RPALite$apex_rpafarm_graph__1_.coverage" NAME="apex-rpafarm-graph (1) 覆盖结果" MODIFIED="1672623441881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/workflow" />
-    <SUITE FILE_PATH="coverage/RPALite$image_parser__1_.coverage" NAME="image-parser (1) 覆盖结果" MODIFIED="1672591902016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data-collect/assets" />
+    <SUITE FILE_PATH="coverage/RPALite$apex_rpafarm_graph__1_.coverage" NAME="apex-rpafarm-graph (1) 覆盖结果" MODIFIED="1672624200850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/workflow" />
+    <SUITE FILE_PATH="coverage/RPALite$image_parser__1_.coverage" NAME="image-parser (1) 覆盖结果" MODIFIED="1672624037668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data-collect" />
     <SUITE FILE_PATH="coverage/RPALite$apex_auto_leveling.coverage" NAME="apex-auto-leveling 覆盖结果" MODIFIED="1672591800211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/RPALite$image_parser.coverage" NAME="image-parser 覆盖结果" MODIFIED="1672591827456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data-collect" />
     <SUITE FILE_PATH="coverage/RPALite$apex_rpa_leveling__1_.coverage" NAME="apex-rpa-leveling (1) 覆盖结果" MODIFIED="1672592101952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/apex-rpa-leveling" />
