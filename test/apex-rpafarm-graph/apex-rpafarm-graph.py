@@ -1,14 +1,16 @@
 import pyautogui
+import pydirectinput
 import time
 
 
 def focusClick(pos_x, pos_y):
-    pyautogui.click(pos_x, pos_y)
-    pyautogui.click(pos_x, pos_y)
+    last_x, last_y = pydirectinput.position()
+    pydirectinput.click(pos_x, pos_y)
+    pydirectinput.moveTo(last_x, last_y)
 
 
 def pressSpace():
-    pyautogui.press('space')
+    pydirectinput.press('space')
 
 
 while True:
@@ -16,7 +18,7 @@ while True:
     now_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 
     # 开始界面 - 匹配中
-    box = pyautogui.locateOnScreen('1.png', confidence=0.7)
+    box = pyautogui.locateOnScreen('1.png', confidence=0.85)
     if box is not None:
         left, top, width, height = box
         x, y = left + width // 2, top + height // 2
