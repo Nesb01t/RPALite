@@ -1,0 +1,1 @@
+pyinstaller --name ApexRpaFarm -F app/apex-rpafarm-graph/main.py

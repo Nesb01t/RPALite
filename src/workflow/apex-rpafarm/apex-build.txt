@@ -1,0 +1,1 @@
+pyinstaller -F workflow/apex-rpafarm/apex-rpafarm-graph.py
