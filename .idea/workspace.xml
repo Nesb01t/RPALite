@@ -4,6 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="24221799-5430-46e9-9b18-741cce930e09" name="变更" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list default="true" id="24221799-5430-46e9-9b18-741cce930e09" name="变更" comment="init new modules">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -206,7 +209,7 @@
       <workItem from="1672772088610" duration="1835000" />
       <workItem from="1672773958888" duration="296000" />
       <workItem from="1672775181292" duration="322000" />
-      <workItem from="1672775523697" duration="1349000" />
+      <workItem from="1672775523697" duration="655000" />
     </task>
     <task id="LOCAL-00001" summary="Update 文件夹管理">
       <created>1672581560655</created>
@@ -320,14 +323,7 @@
       <option name="project" value="LOCAL" />
       <updated>1672775640952</updated>
     </task>
-    <task id="LOCAL-00017" summary="init new modules">
-      <created>1672784053439</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1672784053439</updated>
-    </task>
-    <option name="localTasksCounter" value="18" />
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,6 +352,8 @@
     <MESSAGE value="Update 优化易用性交互" />
     <MESSAGE value="Update 1.0版本发布" />
     <MESSAGE value="Update apexkeyboardversion" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
     <MESSAGE value="first commit" />
     <MESSAGE value="init new modules" />
     <option name="LAST_COMMIT_MESSAGE" value="init new modules" />
