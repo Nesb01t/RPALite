@@ -59,14 +59,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Compile Include="Utils\KeyboardUtils.cs" />
-    <Compile Include="API\HwndUtils.cs" />
+    <Compile Include="include\Window.cs" />
+    <Compile Include="utils\KeyboardUtils.cs" />
+    <Compile Include="api\Hwnd.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Src\WOWShuffling.cs" />
-    <Compile Include="Utils\WindowStyleUtils.cs" />
+    <Compile Include="src\WowShuffling\WowShuffling.cs" />
+    <Compile Include="utils\WindowStyleUtils.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>

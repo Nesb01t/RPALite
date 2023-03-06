@@ -3,20 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using System.Runtime.InteropServices;
+using RPALite.include;
 
 namespace RPALite.API
 {
-    internal class HwndUtils
+    internal class Hwnd
     {
-        [DllImport("user32.dll")]
-        private extern static IntPtr FindWindow(string lpClassName, string lpWindowName);
-
-        [DllImport("user32.dll")]
-        private extern static IntPtr GetForegroundWindow();
-
-
         /// <summary>
         /// 获取窗口 Hwnd
         /// </summary>
@@ -24,13 +17,13 @@ namespace RPALite.API
         /// <returns>窗口句柄 Hwnd</returns>
         public static IntPtr GetWindowHwnd(string name)
         {
-            IntPtr hwnd = FindWindow(null, name);
+            IntPtr hwnd = Window.FindWindow(null, name);
             return hwnd;
         }
 
         public static IntPtr GetActivatingHwnd()
         {
-            IntPtr hwnd = GetForegroundWindow();
+            IntPtr hwnd = Window.GetForegroundWindow();
             return hwnd;
         }
     }

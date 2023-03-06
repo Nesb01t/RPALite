@@ -29,7 +29,7 @@ namespace RPALite
         private TextBlock wowfindBlock;
         private TextBlock runtimeBlock;
 
-        private WOWShuffling wowshuffling;
+        private WowShuffling wowshuffling;
 
         private const string notFindText = "❌ 未找到魔兽世界";
         private const string hasFindText = "✔ 正在执行程序中";
@@ -41,7 +41,7 @@ namespace RPALite
             WindowStyleUtils.SetWindowRound(this);
 
             // 初始化加载成员
-            wowshuffling = new WOWShuffling(0.88);
+            wowshuffling = new WowShuffling(0.88);
             wowfindBlock = FindName("wowFindBlock") as TextBlock;
             runtimeBlock = FindName("runTimeBlock") as TextBlock;
 

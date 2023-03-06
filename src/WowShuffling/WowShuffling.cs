@@ -9,7 +9,7 @@ using System.Data;
 
 namespace RPALite.Src
 {
-    internal class WOWShuffling
+    internal class WowShuffling
     {
         private Thread thread;
         private IntPtr wowHwnd;
@@ -39,12 +39,12 @@ namespace RPALite.Src
         /// <summary>
         /// WOWShuffling 类
         /// </summary>
-        public WOWShuffling(double produceCastTime)
+        public WowShuffling(double produceCastTime)
         {
             // 初始化成员
             startTime = DateTime.Now.ToLocalTime();
             periodTime = DateTime.MinValue;
-            wowHwnd = HwndUtils.GetWindowHwnd("魔兽世界");
+            wowHwnd = Hwnd.GetWindowHwnd("魔兽世界");
             this.produceCastTime = produceCastTime;
 
             // 初始化线程
@@ -85,7 +85,7 @@ namespace RPALite.Src
         // 判断游戏是否在后台
         private bool isWowInBackground()
         {
-            activatingHwnd = HwndUtils.GetActivatingHwnd();
+            activatingHwnd = Hwnd.GetActivatingHwnd();
             return wowHwnd == activatingHwnd;
         }
 
