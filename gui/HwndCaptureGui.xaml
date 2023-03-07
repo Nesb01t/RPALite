@@ -1,0 +1,17 @@
+﻿<Window x:Class="RPALite.gui.HwndCaptureGui"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RPALite.gui"
+        mc:Ignorable="d"
+        Title="HwndCaptureGui" Height="150" Width="150">
+    <StackPanel>
+        <TextBlock x:Name="hwndBlock" TextAlignment="Center" FontSize="16" Height="30" Width="150" Margin="0 20 0 0"><Run Text="你好"/></TextBlock>
+        <Button
+            PreviewMouseDown="Button_MouseDown"
+            PreviewMouseMove="Button_MouseMove"
+            PreviewMouseUp="Button_MouseUp"
+            Height="50" Width="50" Content="Arrow"/>
+    </StackPanel>
+</Window>

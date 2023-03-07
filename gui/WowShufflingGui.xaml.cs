@@ -18,12 +18,9 @@ using System.Windows.Interop;
 using RPALite.API;
 using RPALite.Src;
 
-namespace RPALite
+namespace RPALite.gui
 {
-    /// <summary>
-    /// MainWindow.xaml 的交互逻辑
-    /// </summary>
-    public partial class MainWindow : Window
+    public partial class WowShufflingGui : Window
     {
         private Timer timer;
         private TextBlock wowfindBlock;
@@ -34,7 +31,8 @@ namespace RPALite
         private const string notFindText = "❌ 未找到魔兽世界";
         private const string hasFindText = "✔ 正在执行程序中";
         private const string runtimeText = "⏺ 运行时间: ";
-        public MainWindow()
+
+        public WowShufflingGui()
         {
             // 初始化窗口基础属性
             InitializeComponent();

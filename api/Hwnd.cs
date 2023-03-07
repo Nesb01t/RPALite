@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.InteropServices;
 using RPALite.include;
+using System.Windows;
+using Window = RPALite.include.Window;
 
 namespace RPALite.API
 {
@@ -21,9 +23,19 @@ namespace RPALite.API
             return hwnd;
         }
 
+        /// <summary>
+        /// 获取当前窗口句柄 Hwnd
+        /// </summary>
+        /// <returns></returns>
         public static IntPtr GetActivatingHwnd()
         {
             IntPtr hwnd = Window.GetForegroundWindow();
+            return hwnd;
+        }
+
+        public static IntPtr GetPointHwnd(Point point)
+        {
+            IntPtr hwnd = Window.WindowFromPoint((int)point.X, (int)point.Y);
             return hwnd;
         }
     }
