@@ -7,9 +7,9 @@ using System.Threading;
 using RPALite.API;
 using System.Data;
 
-namespace RPALite.Src
+namespace RPALite.Src.WowShuffer
 {
-    internal class WowShuffling
+    internal class WowShuffObject
     {
         private Thread thread;
         private IntPtr wowHwnd;
@@ -39,12 +39,13 @@ namespace RPALite.Src
         /// <summary>
         /// WOWShuffling 类
         /// </summary>
-        public WowShuffling(double produceCastTime)
+        public WowShuffObject(IntPtr hwnd, double produceCastTime)
         {
             // 初始化成员
             startTime = DateTime.Now.ToLocalTime();
             periodTime = DateTime.MinValue;
-            wowHwnd = Hwnd.GetWindowHwnd("魔兽世界");
+            // wowHwnd = Hwnd.GetWindowHwnd("魔兽世界");
+            wowHwnd = hwnd;
             this.produceCastTime = produceCastTime;
 
             // 初始化线程

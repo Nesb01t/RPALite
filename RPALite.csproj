@@ -74,8 +74,8 @@
     <Compile Include="gui\HwndCaptureGui.xaml.cs">
       <DependentUpon>HwndCaptureGui.xaml</DependentUpon>
     </Compile>
-    <Compile Include="gui\WowShufflingGui.xaml.cs">
-      <DependentUpon>WowShufflingGui.xaml</DependentUpon>
+    <Compile Include="src\WowShuffer\WowShuffGui.xaml.cs">
+      <DependentUpon>WowShuffGui.xaml</DependentUpon>
     </Compile>
     <Compile Include="include\Window.cs" />
     <Compile Include="utils\KeyboardUtils.cs" />
@@ -84,13 +84,13 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="src\WowShuffling\WowShuffling.cs" />
+    <Compile Include="src\WowShuffer\WowShuffObject.cs" />
     <Compile Include="utils\WindowStyleUtils.cs" />
     <Page Include="gui\HwndCaptureGui.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="gui\WowShufflingGui.xaml">
+    <Page Include="src\WowShuffer\WowShuffGui.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
