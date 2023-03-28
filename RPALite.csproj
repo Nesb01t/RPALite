@@ -105,6 +105,9 @@
       <DependentUpon>ApexFarmGui.xaml</DependentUpon>
     </Compile>
     <Compile Include="src\ApexFarmer\ApexFarmObject.cs" />
+    <Compile Include="src\WowRename\WowRenameGui.xaml.cs">
+      <DependentUpon>WowRenameGui.xaml</DependentUpon>
+    </Compile>
     <Compile Include="src\WowShuffer\WowShuffGui.xaml.cs">
       <DependentUpon>WowShuffGui.xaml</DependentUpon>
     </Compile>
@@ -122,6 +125,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="src\ApexFarmer\ApexFarmGui.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="src\WowRename\WowRenameGui.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

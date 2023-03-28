@@ -17,5 +17,8 @@ namespace RPALite.include
 
         [DllImport("user32.dll")]
         public extern static IntPtr WindowFromPoint(int xPoint, int yPoint);
+
+        [DllImport("user32.dll")]
+        public extern static bool SetWindowText(IntPtr hwnd, string lpString);
     }
 }

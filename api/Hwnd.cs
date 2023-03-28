@@ -24,6 +24,18 @@ namespace RPALite.API
         }
 
         /// <summary>
+        /// 设置窗口标题
+        /// </summary>
+        /// <param name="hwnd">窗口句柄</param>
+        /// <param name="name">新的标题</param>
+        /// <returns>是否设置成功</returns>
+        public static bool SetWindowName(IntPtr hwnd, string name)
+        {
+            Window.SetWindowText(hwnd, name);
+            return true;
+        }
+
+        /// <summary>
         /// 获取当前窗口句柄 Hwnd
         /// </summary>
         /// <returns></returns>
