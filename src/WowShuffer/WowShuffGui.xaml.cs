@@ -50,7 +50,7 @@ namespace RPALite.src.WowShuffer
             hwndBlock.Text = "✅ 句柄:" + capturedHwnd.ToString();
 
             // 初始化加载成员
-            wowShuffObject = new WowShuffObject(capturedHwnd, 0.88);
+            wowShuffObject = new WowShuffObject(capturedHwnd, 1.09);
             wowfindBlock = FindName("wowFindBlock") as TextBlock;
             runtimeBlock = FindName("runTimeBlock") as TextBlock;
 
