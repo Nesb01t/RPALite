@@ -79,11 +79,11 @@ namespace RPALite.Src.WowShuffLite
                 Thread.Sleep((int)(100)); // 按下重启&喝药
                 KeyboardUtils.PressKey(wowHwnd, '9');
 
-                Thread.Sleep((int)(20000)); // 20秒后重新打开专业界面
+                /*Thread.Sleep((int)(20000)); // 20秒后重新打开专业界面
                 KeyboardUtils.PressKey(wowHwnd, '5');
                 Thread.Sleep((int)(100));
                 KeyboardUtils.PressKey(wowHwnd, '5');
-                Thread.Sleep((int)(3000)); // 等待插件放置
+                Thread.Sleep((int)(3000)); // 等待插件放置*/
             }
         }
 
