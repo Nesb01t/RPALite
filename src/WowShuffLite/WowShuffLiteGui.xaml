@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RPALite.src.WowShuffer"
         mc:Ignorable="d"
-        Title="RPALite - WowLite"
+        Title="WowLite - 重启版v1"
         Height="180" Width="230"
         ResizeMode="NoResize">
     <StackPanel>
