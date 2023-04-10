@@ -7,7 +7,7 @@ using System.Threading;
 using RPALite.API;
 using System.Data;
 
-namespace RPALite.Src.WowShuffer
+namespace RPALite.Src.WowShuffLite
 {
     internal class WowShuffLiteObject
     {
@@ -28,10 +28,10 @@ namespace RPALite.Src.WowShuffer
         {
             while (true)
             {
-                CalcRunTime();
+                CalcRunTime(); // 中断功能函数
                 if (!isWowInBackground())
                 {
-                    runShuffling();
+                    runShuffling(); // 主操作函数
                 }
             }
         }
@@ -60,26 +60,30 @@ namespace RPALite.Src.WowShuffer
         {
             KeyboardUtils.PressKey(wowHwnd, '-');
             Thread.Sleep((int)(produceCastTime * 1000 + intervalTime * 1000));
-            KeyboardUtils.PressKey(wowHwnd, '=');
-            Thread.Sleep((int)(disenchantCastTime * 1000 + intervalTime * 1000));
         }
 
         // 计算过去时间
         private void CalcRunTime()
         {
-            // 计算 endTime - startTime
+            // 计算当前运行的时间 endTime - startTime
             TimeSpan elapsed = DateTime.Now.ToLocalTime() - startTime;
             runTimeSeconds = elapsed.TotalSeconds;
 
-            // 计算 periodTime
+            // 记录上一次重启的周期时间
             TimeSpan periodElapsed = DateTime.Now.ToLocalTime() - periodTime;
             double seconds = periodElapsed.TotalSeconds;
             if (seconds > 1800)
             {
                 periodTime = DateTime.Now.ToLocalTime();
                 KeyboardUtils.PressKey(wowHwnd, ' ');
-                Thread.Sleep((int)(100));
+                Thread.Sleep((int)(100)); // 按下重启&喝药
                 KeyboardUtils.PressKey(wowHwnd, '9');
+
+                Thread.Sleep((int)(20000)); // 20秒后重新打开专业界面
+                KeyboardUtils.PressKey(wowHwnd, '5');
+                Thread.Sleep((int)(100));
+                KeyboardUtils.PressKey(wowHwnd, '5');
+                Thread.Sleep((int)(3000)); // 等待插件放置
             }
         }
 

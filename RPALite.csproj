@@ -108,6 +108,10 @@
     <Compile Include="src\WowRename\WowRenameGui.xaml.cs">
       <DependentUpon>WowRenameGui.xaml</DependentUpon>
     </Compile>
+    <Compile Include="src\WowShuffLite\WowShuffLiteGui.xaml.cs">
+      <DependentUpon>WowShuffLiteGui.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="src\WowShuffLite\WowShuffLiteObject.cs" />
     <Compile Include="src\WowShuffer\WowShuffGui.xaml.cs">
       <DependentUpon>WowShuffGui.xaml</DependentUpon>
     </Compile>
@@ -131,6 +135,10 @@
     <Page Include="src\WowRename\WowRenameGui.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="src\WowShuffLite\WowShuffLiteGui.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="src\WowShuffer\WowShuffGui.xaml">
       <SubType>Designer</SubType>

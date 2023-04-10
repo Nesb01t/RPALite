@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 using System.Runtime.InteropServices;
 using System.Windows.Interop;
 using RPALite.API;
-using RPALite.Src.WowShuffer;
+using RPALite.Src.WowShuffLite;
 
-namespace RPALite.src.WowShuffer
+namespace RPALite.src.WowShuffLite
 {
-    public partial class WowShuffGui : Window
+    public partial class WowShuffLiteGui : Window
     {
         private Timer timer;
         private TextBlock wowfindBlock;
@@ -38,7 +38,7 @@ namespace RPALite.src.WowShuffer
         private int clickedTime = 0;
         private bool isMouseDown = false;
 
-        public WowShuffGui()
+        public WowShuffLiteGui()
         {
             // 初始化窗口基础属性
             InitializeComponent();
@@ -50,7 +50,7 @@ namespace RPALite.src.WowShuffer
             hwndBlock.Text = "✅ 句柄:" + capturedHwnd.ToString();
 
             // 初始化加载成员
-            wowShuffObject = new WowShuffLiteObject(capturedHwnd, 1.15);
+            wowShuffObject = new WowShuffLiteObject(capturedHwnd, 0.2);
             wowfindBlock = FindName("wowFindBlock") as TextBlock;
             runtimeBlock = FindName("runTimeBlock") as TextBlock;
 

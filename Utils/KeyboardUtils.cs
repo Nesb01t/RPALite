@@ -23,7 +23,10 @@ namespace RPALite.API
 
         public static void PressKey(IntPtr hwnd, char key)
         {
+            
             int keyCode = VkKeyScan(key);
+            // Debugger ->
+            // Console.WriteLine(keyCode);
             PostMessage(hwnd, WM_KEYDOWN, keyCode, 0);
             Thread.Sleep(3);
             PostMessage(hwnd, WM_KEYUP, keyCode, 0);
